@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Javascript Assignment</title>
+</head>
+
+<body>
+
+    <p>hello ! check the console:</p>
+    <div class="greet" id="Q7"></div>
+
+
+
+
+
+
+    <h3>Fahrenheit to Celcius Converter</h3>
+
+    <h5>Enter Fahrenheit value</h5>
+    <input type="number" id="fahrenheit" />
+    <button onclick="findCelsius()">Find Celsius</button>
+
+    <h4>Output: <span id="output"></span></h4>
+
+    <br>
+    <br>
+    <table id="Table" border="1">
+    </table>
+    <form>
+        <input type="button" onclick="createTable()" value="Create table">
+    </form>
+    <br>
+    <br>
+    <br><br>
+
+    <form>
+        <label><b>Enter your order</b></label><br />
+        <label for="name">Name</label><br />
+        <input type="text" id="name"><br>
+        <input type="email" id="email"><br><br />
+        <label for="toppings">Toppings</label><br />
+        <input type="checkbox" id="cheese"><label for="cheese">cheese</label>
+        <input type="checkbox" id="Pepperoni"><label for="Pepperoni">Pepperoni.</label>
+        <input type="checkbox" id="Mushrooms"><label for="Mushrooms">Mushrooms</label>
+        <input type="checkbox" id="Extcheese"><label for="Extcheese">Extra cheese</label>
+        <input type="checkbox" id="olives"><label for="olives">Black olives</label><br />
+        <br>
+        <fieldset style="width: 30%;">
+            <legend >How would you like to get</legend>
+        <input type="radio" id="delivery" name="type" value="delivery"><label for="delivery">delivery</label>
+        <input type="radio" id="pickup" name="type" value="pickup"><label for="pickup">pickup</label>
+        </fieldset>
+        <br>
+        <label for="Address">Address</label><br>
+        <textarea rows="4" cols="50" id="address"></textarea>
+        
+    </form>
+
+    <input type="submit" onclick="showInput();"><br />
+    <label>Your input: </label>
+    <p><span id='displayname'></span></p>
+    <p><span id='displayemail'></span></p>
+    <p><span id='displaycheese'></span></p>
+    <p><span id='displayPepperoni'></span></p>
+    <p><span id='displayMushrooms'></span></p>
+    <p><span id='displayExtcheese'></span></p>
+    <p><span id='displayolives'></span></p>
+    <p><span id='displaydelivery'></span></p>
+    <p><span id='displaypickup'></span></p>
+    <p><span id='displayadd'></span></p>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
